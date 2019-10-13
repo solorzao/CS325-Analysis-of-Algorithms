@@ -36,14 +36,12 @@ int main()
 		else
 		{
 			int currentNumber;
-			int vectorSize;
 			int numberToSort;
-			int i = 0;
-			bool newLine = false;
 
 			std::vector<int> numbersVector;
 
 			outFileName = "insert.txt";
+			//outFileName= "merge.txt";
 
 			outputFile.open(outFileName); //open outputfile
 
